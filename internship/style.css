@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: sans-serif;  */
+    /* max-width: 100%; */
+    /* height: auto; */
+    /* align-items: center; */
+}
+h2{
+    padding: 100px 220px;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.arrow{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-top: 120px;
+}
+.components{
+padding: 20px 220px;
+overflow: auto;
+/* width: 50%; */
+}
+.components img{
+    float:right;
+    clear: right;
+}
+.components span{
+    font-size: 50px;
+    
+}
+.components p{
+margin-top: 50px;
+font-size: 30px;
+}
+button{
+     padding: 10px 30px;
+     margin-top: 60px;
+    margin-left: 220px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    h2{
+        padding: 50px 0px;
+        /* font-size: 30px; */
+    }
+    a{
+        text-decoration: none;
+         font-size: 20px;
+        color: rgb(34,114,251); 
+    }
+    .arrow{
+        margin: 0px;
+        display: flex;
+        justify-content: space-evenly;
+        color: rgb(34,114,251);
+    }
+    .components span{
+        font-size: 40px;
+    }
+    .components p{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    button{
+        margin: 0px;
+    }
+  .components, .components img, .components span, .components p{
+      width: 100%;   
+      padding: 20px 0px;
+    }
+  }
